@@ -491,10 +491,8 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .header {
-    display: none;
-  }
-  .sm-hide{
+  
+  .sm-hide, header{
     display:none;
   }
   .nominations_general {
