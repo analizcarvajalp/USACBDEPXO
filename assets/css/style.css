@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url("./assets/gallery/page-background.png");
+  background-image: url("../gallery/page-background.png");
 }
 
 #header {
