@@ -3,7 +3,7 @@
 
 USACBD EXPO AWARDS Page
 
-Bootstrap, jquery and slick were used to style the page.
+Bootstrap, jquery and slick were used to style the page, also the counter works with vanilla JS.
 
 The page has phone view, tablet view, and desktop view, as well as landscape view for phone.
 
