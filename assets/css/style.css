@@ -519,95 +519,106 @@ footer {
   padding-top: 60px;
   margin: 0 0 0 auto;
 }
-.footer_logo img{
+
+.footer_logo img {
   max-width: 100%;
   padding: 0 35px 0 20px;
 }
 
 @media only screen and (max-width: 600px) {
-.nominations{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  flex-direction: column;
-}
- .nominations_title{
-   padding-top: 15px;
-   font-size: 1.3em;
-   text-align: center;
- }
- .nominations_sub{
-   padding-top:50px;
- }
- .nominations_countdown {
-  padding: 8px 20px;
-  margin: 0 8px;
-font-size: .8em;}
+  .nominations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .nominations_title {
+    padding-top: 15px;
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .nominations_sub {
+    padding-top: 50px;
+  }
+
+  .nominations_countdown {
+    padding: 8px 20px;
+    margin: 0 8px;
+    font-size: .8em;
+  }
 }
 
 @media screen and (orientation: landscape) and (max-width:760px) {
-footer{
-  background: purple;
+
+
+  html {
+    font-size: 0.475em;
+  }
+
+  .nominations {
+    max-width: 500px;
+  }
+
+  .nominations_container {
+    margin: 0 100px;
+  }
+
+  .nominations_title {
+    padding-top: 60px;
+  }
+
+  .terms,
+  .terms_conditions,
+  .apply_nomination,
+  .categories-row {
+    max-width: 600px;
+  }
+
+  .terms_steps p {
+    margin-bottom: 0;
+  }
+
+  .terms_conditions-list {
+    padding: 50px 70px 0 70px;
+  }
+
+  .terms_conditions-list img {
+    max-width: 35px;
+    margin-left: 20px;
+  }
+
+  .apply_nomination-sub {
+    padding: 20px 35px;
+    margin-right: 10px;
+  }
+
+  .apply_field.req,
+  .apply_field {
+    width: 170px;
+  }
+
+  .apply_field.contact_info {
+    width: 18%;
+  }
+
+  footer {
+    padding: 35px 0 100px 0;
+  }
+
+  .footer_logo img {
+    padding: 0 50px 0 10px;
+  }
 }
 
-html{
-  font-size: 0.475em;
-}
 
-.nominations{
-  max-width: 500px;
-}
-.nominations_container{
-  margin: 0 100px;
-}
-.nominations_title{
-  padding-top:60px;
-}
-.terms,
-.terms_conditions,
-.apply_nomination,
-.categories-row {
-  max-width: 600px;
-}
-
-.terms_steps p{
-  margin-bottom:0;
-}
-.terms_conditions-list{
-  padding: 50px 70px 0 70px;
-}
-.terms_conditions-list img{
-max-width: 35px;
-margin-left: 20px;
-}
-.apply_nomination-sub{
-  padding: 20px 35px;
-  margin-right:10px;
-}
-.apply_field.req, .apply_field{
-  width: 170px;
-}
-.apply_field.contact_info{
-  width:18%;
-}
-footer {
-  padding: 35px 0 100px 0;
-}
-.footer_logo img{
-  padding: 0 50px 0 10px;
-}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)  and (max-width: 992px){
-  html{
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
     font-size: 0.5625em;
   }
-  
-  footer {
-    background: blue;
-  }
+
 
   .navbar-mobile {
     position: absolute;
@@ -618,11 +629,11 @@ footer {
     max-width: 200px;
   }
 
-  .nominations{
+  .nominations {
     max-width: 600px;
   }
 
-  .nominations_title{
+  .nominations_title {
     padding-top: 80px;
   }
 
@@ -634,38 +645,38 @@ footer {
     max-width: 700px;
   }
 
-  .terms_steps p{
+  .terms_steps p {
     font-size: 1.1em;
   }
 
-  .terms_conditions-list{
+  .terms_conditions-list {
     padding: 50px 80px 0 80px;
   }
-  .terms_conditions-list img{
+
+  .terms_conditions-list img {
     max-width: 35px;
     margin-left: 20px;
   }
 
-  .apply_field, .apply_field.req{
+  .apply_field,
+  .apply_field.req {
     width: 225px;
   }
-  .apply_field.contact_info{
+
+  .apply_field.contact_info {
     width: 20.3%;
   }
 
 
 
-  .footer_logo img{
+  .footer_logo img {
     padding: 0 10px;
   }
-  
+
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) and (max-width:1200px) {
-  footer {
-    background: orange;
-  }
 
   html {
     font-size: 0.6875em;
@@ -701,16 +712,14 @@ footer {
   .apply_field {
     max-width: 295px;
   }
-  .footer_logo img{
+
+  .footer_logo img {
     padding: 0 25px 0 15px;
   }
- 
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  footer {
-    background: pink;
-  }
 
   html {
     font-size: 0.875em;
@@ -745,22 +754,15 @@ footer {
     max-width: 1000px;
   }
 
-  .footer_logo img{
+  .footer_logo img {
     padding: 0 25px 0 15px;
   }
 
-  /* .categories-col img {
 
-    object-fit: contain;
-    margin: auto;
-  } */
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
-  footer {
-    background: red;
-  }
+
 
   html {
     font-size: 100%;
