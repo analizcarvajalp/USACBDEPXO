@@ -494,7 +494,9 @@ footer {
   .header {
     display: none;
   }
-
+  .sm-hide{
+    display:none;
+  }
   .nominations_general {
     position: absolute;
     top: 50%;
