@@ -3,33 +3,26 @@ html {
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-image: url('/assets/gallery/page-background.png');
+  background-image: url("./assets/gallery/page-background.png");
 }
 
 #header {
   background: transparent;
 }
 
-/* .navbar {
-
-} */
-
 .mobile-nav-toggle {
-  color: #C7BD6F;
+  color: #c7bd6f;
   font-size: 28px;
   cursor: pointer;
   display: none !important;
   line-height: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-
 }
-
-
 
 .navbar-mobile {
   position: fixed;
@@ -50,12 +43,6 @@ body {
   right: 15px;
 }
 
-
-
-
-
-
-
 .logo img {
   max-width: 224px;
   height: 100%;
@@ -64,7 +51,7 @@ body {
   transition: all 0.8s ease-in-out 0s;
 }
 
-.navbar ul {
+.Navbar ul {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -76,11 +63,11 @@ body {
   align-items: center;
 }
 
-.navbar li {
+.Navbar li {
   position: relative;
 }
 
-.navbar a {
+.Navbar a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,23 +86,18 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 50px;
-
 }
 
-.navbar a:hover {
-  color: #C7BD6F;
+.Navbar a:hover {
+  color: #c7bd6f;
 }
-
-
-
-
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block !important;
   }
 
-  .navbar ul {
+  .Navbar ul {
     display: none;
   }
 
@@ -123,8 +105,6 @@ body {
     height: 100%;
     width: 100%;
   }
-
-
 }
 
 .navbar-mobile {
@@ -162,8 +142,8 @@ body {
 .navbar-mobile a {
   padding: 10px 20px;
   margin: 5px;
-  font-size: 0.9375em;
-  color: #633180;
+  font-size: 1.4em;
+  color: #239342;
 }
 
 .navbar-mobile .getstarted {
@@ -186,12 +166,11 @@ body {
 }
 
 .nominations_sub {
-  font-size: 0.92em;
+  font-size: 1em;
   font-weight: bold;
   padding-top: 80px;
+  margin-left: 10px;
 }
-
-
 
 .nominations_countdown {
   border: 2px solid white;
@@ -220,13 +199,12 @@ body {
   line-height: 1.1;
   margin-bottom: 20px;
   font-size: 1.3em;
-
 }
 
 .terms_steps span {
   font-size: 4em;
 
-  font-weight: bolder
+  font-weight: bolder;
 }
 
 .terms_conditions {
@@ -253,7 +231,7 @@ body {
 }
 
 .terms_conditions-info h5 {
-  color: #C7BD6F;
+  color: #c7bd6f;
   font-weight: bolder;
   font-size: 1.125em;
 }
@@ -279,7 +257,7 @@ body {
 
 .terms_conditions-list ul li::before {
   content: "■";
-  color: #B9C279;
+  color: #b9c279;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -316,10 +294,8 @@ body {
 }
 
 .categories-col img {
-
   display: block;
   max-width: 220px;
-
 }
 
 .categories p {
@@ -328,7 +304,6 @@ body {
   text-align: center;
 }
 
-
 /*Apply nominations*/
 .apply {
   margin-top: -80px;
@@ -336,7 +311,7 @@ body {
 
 .required:after {
   color: #e32;
-  content: '*';
+  content: "*";
   display: inline;
   left: 32px;
   position: relative;
@@ -350,13 +325,12 @@ body {
   border-radius: 10px;
   max-width: 1170px;
   margin: 0 auto;
-
 }
 
 .apply_nomination-sub,
 .apply_nomination-contact {
   display: inline-block;
-  background: #C7BD6F;
+  background: #c7bd6f;
   border-radius: 10px;
   color: white;
   margin-right: 20px;
@@ -373,7 +347,6 @@ body {
   padding: 16px 52px;
 }
 
-
 .apply_field.req,
 .apply_field.req::placeholder {
   width: 415px;
@@ -389,20 +362,19 @@ body {
 .apply_field.contact_info {
   width: 22.7%;
   margin: 0 6px;
-
 }
 
 .apply_field,
 .apply_field::placeholder,
 .apply_field.req,
 .apply_field.req::placeholder {
-  background: #EFEFEF;
+  background: #efefef;
   outline: none;
   border: none;
   border-radius: 8px;
   height: 50px;
   appearance: none;
-  color: #BCBCBC;
+  color: #bcbcbc;
   font-weight: 500;
   font-style: italic;
   font-size: 0.9375em;
@@ -418,19 +390,18 @@ body {
 }
 
 .apply_nomination-selection::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 25px;
   top: 20px;
   width: 10px;
   height: 10px;
   padding: 3px;
-  border: solid #C6C6C6;
+  border: solid #c6c6c6;
   border-width: 0 2px 2px 0;
   display: inline-block;
   pointer-events: none;
   transform: rotate(45deg);
-
 }
 
 .apply_productName {
@@ -441,7 +412,7 @@ body {
   display: block;
   font-size: 0.625em;
   font-weight: 500;
-  color: #FF0002;
+  color: #ff0002;
   font-style: italic;
   margin: 0 5px;
   padding: 0 15px;
@@ -449,11 +420,10 @@ body {
 
 .apply_submit {
   text-align: center;
-
 }
 
 .apply_submit input {
-  background: #38D430;
+  background: #38d430;
   color: white;
   font-weight: bolder;
   font-size: 1.25em;
@@ -477,8 +447,6 @@ footer {
 
 .row_footer {
   display: flex;
-
-
 }
 
 .col_footer_b {
@@ -495,7 +463,6 @@ footer {
 
 .footer_title {
   font-weight: bold;
-
 }
 
 .footer_nav {
@@ -503,9 +470,7 @@ footer {
   font-weight: 500;
   display: block;
   margin: 10px 0;
-
 }
-
 
 .footer_title,
 .footer_nav,
@@ -526,12 +491,14 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .nominations {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex-direction: column;
+  .header {
+    display: none;
+  }
+
+  .nominations_general {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .nominations_title {
@@ -542,24 +509,29 @@ footer {
 
   .nominations_sub {
     padding-top: 50px;
+    font-size: 0.6em;
   }
 
   .nominations_countdown {
     padding: 8px 20px;
     margin: 0 8px;
-    font-size: .8em;
+    font-size: 0.75em;
   }
 }
 
-@media screen and (orientation: landscape) and (max-width:760px) {
-
-
+@media screen and (orientation: landscape) and (max-width: 760px) {
   html {
     font-size: 0.475em;
   }
 
   .nominations {
     max-width: 500px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 
   .nominations_container {
@@ -613,17 +585,14 @@ footer {
   }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   html {
     font-size: 0.5625em;
   }
 
-
   .navbar-mobile {
     position: absolute;
   }
-
 
   .logo img {
     max-width: 200px;
@@ -636,7 +605,6 @@ footer {
   .nominations_title {
     padding-top: 80px;
   }
-
 
   .terms,
   .terms_conditions,
@@ -667,17 +635,12 @@ footer {
     width: 20.3%;
   }
 
-
-
   .footer_logo img {
     padding: 0 10px;
   }
-
 }
 
-
-@media only screen and (min-width: 992px) and (max-width:1200px) {
-
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   html {
     font-size: 0.6875em;
   }
@@ -716,11 +679,9 @@ footer {
   .footer_logo img {
     padding: 0 25px 0 15px;
   }
-
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-
   html {
     font-size: 0.875em;
   }
@@ -757,13 +718,9 @@ footer {
   .footer_logo img {
     padding: 0 25px 0 15px;
   }
-
-
 }
 
 @media only screen and (min-width: 1400px) {
-
-
   html {
     font-size: 100%;
   }
